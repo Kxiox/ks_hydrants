@@ -27,3 +27,8 @@ server_scripts {
 dependencies {
     'ox_lib'
 }
+
+escrow_ignore {
+    'shared/locales.lua',
+    'shared/config.lua'
+}
